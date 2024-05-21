@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Inputbox } from './components'
+import { Inputbox } from './components/index'
 import useCurrencyInfo from './customHooks/useCurrencyInfo'
 
 
@@ -27,11 +27,10 @@ function App() {
 
   return (
     <div
-        className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
+        className="w-screen h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
-            backgroundImage: `url('https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
-        }}
-    >
+            backgroundImage: `url('https://images.pexels.com/photos/3943719/pexels-photo-3943719.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
+        }}>
         <div className="w-full">
             <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                 <form
